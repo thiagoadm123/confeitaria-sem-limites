@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1;
+    text-align: center;
+}
+
+header {
+    background-color: #FFC0CB;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.banner {
+    background-color: #D2691E;
+    color: white;
+    padding: 30px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.preco {
+    font-weight: bold;
+    color: #D2691E;
+}
+
+.contato {
+    padding: 20px;
+    background: #FFC0CB;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+input, textarea, button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #D2691E;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background: #D2691E;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
