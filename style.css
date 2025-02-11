@@ -2,35 +2,40 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFF5E1;
+    background: url('https://cdn.pixabay.com/photo/2017/09/21/19/55/cakes-2770300_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
     text-align: center;
 }
 
 header {
-    background-color: #FFC0CB;
+    background-color: rgba(255, 192, 203, 0.8);
     padding: 20px;
-    color: white;
     font-size: 24px;
 }
 
 .banner {
-    background-color: #D2691E;
-    color: white;
+    background-color: rgba(210, 105, 30, 0.9);
     padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
 }
 
 .produtos {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
 .produto {
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     padding: 15px;
     border-radius: 8px;
     width: 250px;
+    color: black;
+    text-align: center;
 }
 
 .produto img {
@@ -38,14 +43,23 @@ header {
     border-radius: 8px;
 }
 
-.preco {
-    font-weight: bold;
-    color: #D2691E;
+button {
+    background-color: #D2691E;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #a0522d;
 }
 
 .contato {
     padding: 20px;
-    background: #FFC0CB;
+    background: rgba(255, 192, 203, 0.8);
 }
 
 form {
@@ -62,15 +76,8 @@ input, textarea, button {
     border-radius: 5px;
 }
 
-button {
-    background-color: #D2691E;
-    color: white;
-    cursor: pointer;
-}
-
 footer {
     background: #D2691E;
-    color: white;
     padding: 10px;
     margin-top: 20px;
 }
